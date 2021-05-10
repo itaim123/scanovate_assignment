@@ -6,7 +6,6 @@ import './SideDrawer.scss';
 
 const SideDrawer = () => {
   const showDrawer = useSelector(state=>state.showDrawer);
-  console.log(showDrawer, 'show')
   return (
     <div className={`sideDrawer ${showDrawer ? 'showDrawer' : ''}`}>
       <InitialData />

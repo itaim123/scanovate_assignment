@@ -6,8 +6,9 @@
   background: white;
   box-shadow: 5px 10px grey;
   .title {
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(174, 176, 180);
     &.isButton {
       display: flex;
       justify-content: space-between;
