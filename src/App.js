@@ -31,7 +31,7 @@ function App() {
         <SideDrawer />
         <Switch>
           <Route path='/' exact component={DataSections} />
-          <Route path='/otherRoutes' exact component={NoPageFound} />
+          <Route path='/pages/' component={NoPageFound} />
           <Redirect to='/' />
         </Switch>
       </div>

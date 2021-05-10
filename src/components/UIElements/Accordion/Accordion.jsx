@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 import './Accordion.scss';
 
 const Accordion = ({ title, data }) => {
-  const [collapse, setCollapse] = useState(true);
+  const [collapse, setCollapse] = useState(false);
   const keysArray = Object.keys(data);
 
   return (
