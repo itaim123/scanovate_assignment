@@ -7,4 +7,4 @@ I have used redux to store the data after fetched, as well as other properties f
 
 I tried not to use UI libraries and created the UI elements on my own. The components were made to be as reusable as I could - Flag\Icon\Card\Table\Square\Button etc.
 
-{Headers for the content within cards was left as the key properties in the json object, although in real life I app I would have used a map to show the titles in a better way.}
+{Headers for the content within cards were left as the key properties of the json object, although in real life I app I would have used a map to show the titles in a better way.}
