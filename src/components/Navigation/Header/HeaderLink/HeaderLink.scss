@@ -1,0 +1,14 @@
+.headerLink {
+    padding: 5px 6px;
+    margin: 0 4px;
+    
+    &.active{
+        color: blue
+    }
+    &:hover{
+        background-color: rgb(186, 186, 212);
+        cursor: pointer;
+    }
+}
+
+

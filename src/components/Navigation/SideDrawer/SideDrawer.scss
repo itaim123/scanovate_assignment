@@ -1,0 +1,17 @@
+.sideDrawer {
+  background-color: #eeeeee;
+  width: 400px;
+  @media screen and (max-width: 780px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    transform: translateX(-100%);
+    z-index: 10;
+    transition: transform 1.3s ease;
+
+    &.showDrawer {
+      transform: translateX(0);
+    }
+  }
+}

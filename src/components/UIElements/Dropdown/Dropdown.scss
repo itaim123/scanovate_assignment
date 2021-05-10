@@ -1,0 +1,14 @@
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    select {
+        margin: 0 15px
+    }
+}
+
+

@@ -1,0 +1,9 @@
+    .iconComponent {
+        max-height: 80%;
+        max-width: 40px;
+        padding: 0 15px;
+        &.clickable {
+            cursor: pointer
+        }
+    }
+

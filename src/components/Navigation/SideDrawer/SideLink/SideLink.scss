@@ -1,0 +1,18 @@
+.sideLink {
+    display: flex;
+    margin: 6px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    &.withQuantity {
+        justify-content: space-between;
+    }
+    &.active {
+        background-color: #fff;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    &:hover{
+    }
+}
+
+

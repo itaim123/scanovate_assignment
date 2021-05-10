@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+  box-shadow: 5px 10px grey;
+  .title {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid grey;
+    &.isButton {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  button {
+    color: blue;
+  }
+  .title {
+    font-size: 0.9rem;
+  }
+}

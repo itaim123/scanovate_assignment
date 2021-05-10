@@ -1,0 +1,23 @@
+.singleSquare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 1.5rem;
+  cursor: default;
+  .square_title {
+    color: grey;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .square_content {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+}

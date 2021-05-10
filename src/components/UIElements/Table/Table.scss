@@ -1,0 +1,16 @@
+.table {
+    cursor: default;
+    th, td {
+        font-size: 0.65rem;
+        text-align: left;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    tr {
+        &:nth-child(even){
+            background-color: #e2e1e169;
+        }
+    }
+}
+
+

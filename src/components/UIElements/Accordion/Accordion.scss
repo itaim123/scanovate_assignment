@@ -1,0 +1,33 @@
+.accordion {
+  width: 72%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+  .accordion_title {
+    cursor: pointer;
+    padding: 10px 5px;
+    color: rgb(51, 142, 245);
+    span {
+      display: inline-block;
+      transition: transform 0.6s ease;
+      position: relative;
+      left: 10px;
+      &.rotate {
+        transform: rotate(-90deg);
+      }
+    }
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
+  .accordion_content {
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    height: auto;
+    max-height: 1200px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    &.collapse {
+      max-height: 0;
+    }
+  }
+}
