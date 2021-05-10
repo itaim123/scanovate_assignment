@@ -10,3 +10,5 @@ I tried not to use UI libraries and created the UI elements on my own. The compo
 I have created a helper function file in the utils folder to make the components more straight forward and also created a few helper object files such as country codes (for the flag lib) and active\quantity for the side nav links.
 
 {Headers for the content within cards were left as the key properties of the json object, although in real life I app I would have used a map to show the titles in a better way.}
+
+To run the project - npm start on both main folder and main\server folder to start server.
