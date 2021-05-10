@@ -2,7 +2,6 @@ import TYPES from './types';
 
 const INITIAL_STATE = {
   data: {},
-  isError: false,
   loading: true,
   showDrawer: false
 };
