@@ -1,7 +1,7 @@
 Scanovate Assignment README
 ===========================
 Hi,
-I created a simple express server with one object that contains 4 different keys, each one to address different section of the page - (1) the details on the side nav (2+3+4) the different accordions. Each of the accordion keys contains keys to address the corresponding cards within it.
+I created a simple express server with one object that contains four different keys, each one to address different section of the page - (1) the details on the side nav (2+3+4) the different accordions. Each of the accordion keys contains keys to address the corresponding cards within it.
 
 I have used redux to store the data after fetched, as well as other properties for the overall app status like loading and showDrawer (responsive view).
 
