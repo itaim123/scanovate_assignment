@@ -20,4 +20,12 @@
     align-items: center;
     font-weight: bold;
   }
+  @media screen and (max-width: 780px) {
+    .square_title {
+    font-size: 1.2rem;
+    }
+    .square_content {
+    font-size: 1rem;
+    }
+  }
 }

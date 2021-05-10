@@ -11,6 +11,11 @@
             background-color: #e2e1e169;
         }
     }
+    @media screen and (max-width: 780px) {
+        th, td { 
+        font-size: 1rem;
+      }
+    }
 }
 
 
