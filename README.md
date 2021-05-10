@@ -11,4 +11,4 @@ I have created a helper function file in the utils folder to make the components
 
 {Headers for the content within cards were left as the key properties of the json object, although in real life I app I would have used a map to show the titles in a better way.}
 
-To run the project - npm start on both main folder and main\server folder to start server.
+*** To run the project - npm start on both main folder and main\server folder to start server.
